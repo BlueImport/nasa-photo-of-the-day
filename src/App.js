@@ -1,6 +1,6 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import ImgCard from "./components/ImgCard.js";
+import Styling from "../src/index.css";
+import ImgCard from "./Components/ImgCard";
 import "./App.css";
 
 function App() {

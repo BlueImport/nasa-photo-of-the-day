@@ -6,7 +6,7 @@ const ImgCard = () => {
     const [title, setTitle] = useState();
     const [date, setDate] = useState();
     const [image, setImage] = useState();
-    const [explanation, setExplanationText] = useState();
+    const [explanation, setExplanation] = useState();
 
     useEffect(() => {
         axios
