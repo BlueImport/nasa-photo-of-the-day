@@ -23,6 +23,7 @@ const ImgCard = () => {
     return (
         <div className="container">
             <ImgInfo title = {title} image = {image} day = {date} text = {explanation} /> 
+            
         </div>
     )
 }
