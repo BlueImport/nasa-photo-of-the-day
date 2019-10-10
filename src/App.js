@@ -7,7 +7,11 @@ const TitleH1 = styled.h1`
   font-size: 70px;
   color: gray;
   background-color: black;
-  padding: 5%;
+  padding-left: 0%;
+  padding-bottom: 3%;
+  width: 75%;
+  text-align: center;
+  margin: auto;
   margin-top: 3%;
   border: 3px solid gray;
   box-shadow: 5px 5px 5px slategray;
@@ -17,6 +21,8 @@ const TitleH1 = styled.h1`
   font-size: 12px;
   padding:2%;
   background-color: black;
+  width: 75%;
+  margin: auto;
   color: gray;
   align-text: center;
   border: 1.5px solid gray;

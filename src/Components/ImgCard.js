@@ -1,6 +1,18 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ImgInfo from "./ImgInfo";
+import styled from "styled-components";
+
+const InfoImg = styled.img`
+    width: 50%;
+    height: 50%;
+    padding:2%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 5px slategray;
+    `;
 
 const ImgCard = () => {
     const [title, setTitle] = useState();
